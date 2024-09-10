@@ -1,0 +1,12 @@
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-text)
+}
+
+.btn-primary-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--color-primary);
+    color: var(--color-text);
+}

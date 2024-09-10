@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto';
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: filter ease-in 0.1s;
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+}
+
+.primary-button {
+    background: var(--color-background);
+    color: var(--color-text);
+}

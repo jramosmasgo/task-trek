@@ -1,0 +1,54 @@
+/* Text Color Classes */
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-text {
+    color: var(--color-text);
+}
+
+.color-background-dark {
+    background-color: var(--color-background-dark);
+}
+
+.color-background {
+    background-color: var(--color-background);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-accent {
+    color: var(--color-accent);
+}
+
+.color-border {
+    color: var(--color-border);
+}
+
+/* Background Color Classes */
+.bg-primary {
+    background: var(--color-primary);
+}
+
+.bg-text {
+    background: var(--color-text);
+}
+
+/* Background Color Variants */
+.bg-background-dark {
+    background: var(--color-background-dark);
+}
+
+.bg-background {
+    background: var(--color-background);
+}
+
+.bg-secondary {
+    background: var(--color-secondary);
+}
+
+.bg-accent {
+    background: var(--color-accent);
+}
