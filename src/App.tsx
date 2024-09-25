@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import '@/styles/main.scss';
-import UserTemplate from './layouts/UserTemplate';
+import { useState } from 'react';
+import UserRouter from './routers/user.router';
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className={isDarkTheme ? 'dark-theme' : 'light-theme'}>
-      <UserTemplate />
+      <UserRouter />
     </div>
   )
 }

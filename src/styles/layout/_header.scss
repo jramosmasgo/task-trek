@@ -29,9 +29,9 @@
 
         &_menu {
             display: flex;
+            gap: 20px;
 
             .menu-item {
-                margin-left: 20px;
                 display: flex;
                 padding: 5px 10px;
                 border-radius: 5px;

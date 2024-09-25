@@ -3,6 +3,12 @@
     color: var(--color-text)
 }
 
+.btn-primary_outline {
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    color: var(--color-text)
+}
+
 .btn-primary-icon {
     display: flex;
     align-items: center;

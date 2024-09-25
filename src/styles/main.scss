@@ -6,8 +6,17 @@
 @import 'base/variables';
 @import 'base/base';
 @import 'base/buttons';
+@import 'base/inputs';
 
 @import 'layout/template';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/sidebar';
+@import 'layout/modal';
+
+@import 'pages/dashboard';
+
+@import 'components/form';
+@import 'components/task-list';
+
+@import 'shared/dropdown'

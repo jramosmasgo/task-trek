@@ -1,0 +1,68 @@
+   .task-list {
+       margin-top: 30px;
+       padding: 7px 10px;
+       width: 250px;
+       border-radius: 10px;
+       background: var(--color-background);
+       height: max-content;
+
+       &_header {
+           position: relative;
+           padding: 10px 5px;
+           border-bottom: 2px solid var(--color-border);
+
+           svg {
+               position: absolute;
+               right: 5px;
+               top: 8px;
+           }
+
+           h2 {
+               font-size: 14px;
+           }
+       }
+
+       &_footer {
+           margin-top: 15px;
+
+           &-button {
+               padding: 10px 5px;
+               width: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: start;
+               font-weight: 100;
+               background: transparent;
+               gap: 10px;
+               color: var(--color-text);
+               transition: background ease-in .2s;
+
+               p {
+                   font-size: 14px;
+               }
+
+               &:hover {
+                   background: #414141;
+               }
+           }
+
+           &-add {
+               margin-bottom: 10px;
+
+               input {
+                   width: 100%;
+                   margin-bottom: 10px;
+               }
+
+               div {
+                   display: flex;
+                   gap: 10px;
+                   justify-content: start;
+                   align-items: center;
+               }
+
+
+           }
+
+       }
+   }

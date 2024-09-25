@@ -1,0 +1,20 @@
+.dropdown {
+
+    &-content {
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 2px;
+        z-index: 2;
+        position: absolute;
+        padding: 10px;
+        min-width: 100%;
+        background: var(--color-border);
+        transition: all ease-in .2s;
+
+        &_open {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+}

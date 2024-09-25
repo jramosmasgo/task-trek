@@ -1,0 +1,26 @@
+.modal {
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    padding: 20px;
+    color: var(--color-text);
+
+    &-header {
+        cursor: pointer;
+        margin-bottom: 20px;
+        position: relative;
+
+        svg {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    &-footer {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 5px;
+        margin-top: 20px;
+    }
+}

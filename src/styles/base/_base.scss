@@ -2,6 +2,19 @@ body {
     font-family: 'Roboto';
 }
 
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: filter ease-in 0.1s;
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -26,20 +39,10 @@ body {
     gap: 10px;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: filter ease-in 0.1s;
-
-    &:hover {
-        filter: brightness(1.2);
-    }
+.p-relative {
+    position: relative;
 }
 
-.primary-button {
-    background: var(--color-background);
-    color: var(--color-text);
+.pointer {
+    cursor: pointer;
 }
